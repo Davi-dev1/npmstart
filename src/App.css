@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+}
+.stories{
+background:#ccc;
+
+width:44vw;
+height: 70px;
+overflow: scroll;
+
+
+}
+
+
+.postagens{
+    background:gray;
+width:44vw;
+min-height: 80vh;
+display: flex;
+flex-direction: column;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+.Conteudolateral {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+   min-height:80vh;
+    background-color:gray;
+    padding: 20px;
+    border:1px solid whitesmoke;
+}
+
+.menulateral{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 20px;
+    
+  
+}
+.menulateral  li{
+    margin-bottom: 10px;
+    padding:10px;
+    color:whitesmoke;
+    margin-left: 10px;
+    border:1px solid black;
+  
+}
+.menulateral  li:hover{
+    font-size: 25px;
+    background-color:lightsalmon;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.texto-do-menu{
+    align-items: center;
+    color:whitesmoke;
+  margin-bottom: 10px;
+  margin-left:15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Post img{
+    max-width: 40vw;
+    min-width: 3vw;
+}
+.Post-cabeçalho {
+        padding: 6px;
+   margin:5px;
+
+
+
+}
+.Post-cabecalho {
+display: flex;
+align-items: center;
+
+
+}
+
+.Post-nome{
+    display:inline-block;
+  margin-block-start: 60px;
+  font-size: 16px;
+}
+
+
+.Post-avatar img{
+    width: 36px;
+    height: 28px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    margin:7px;
+    margin-right: 11px;
+    margin-bottom: -5px;
+    margin-left: 21px;
+}
+
+
+
+.Post-nome {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-block-start: 60px;
+}
+.Post-comentario{
+    color:white;
+}
+.Conteudoprincipal{
+    width: 60vw;
+}
+p{
+    text-align: center;
+    margin: 0; /* Remove margens extras ao redor do nome */
+    font-size: 16px;
+    color:black; /* Cor do nome */
+    padding: 3px;
+    margin-bottom: 16px;
+  
+}

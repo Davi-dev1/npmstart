@@ -1,0 +1,139 @@
+.header-suggestion{
+    display: flex;
+    flex-direction: column; /* Garante que os elementos filhos fiquem um abaixo do outro */
+    align-items: last baseline;
+}
+.header-suggestion img{
+    width: 54px;
+    height: 46px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    margin:165px;
+    margin-right: -39px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+.infos{
+display:block;
+align-items: center;
+padding-block: 10px;
+
+}
+.user-infos-suggestion{
+    display: flex;
+    flex-direction: column;
+}
+.user-infos-suggestion span{
+    font-weight: bold;
+    font-size: 14px;
+}
+.user-infos-suggestion p{
+    font-size: 13px;
+}
+.btn-suggestion{
+    color:#0095F6;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    margin-left: 147px;
+    margin-top: -34px;
+    margin-bottom: 15px;
+}
+
+.recomendados{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0 10px 0;
+    
+}
+.recomendados p{
+    font-size: 14px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Pessoa{
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente   
+   dentro de cada item */
+    margin-bottom: 20px;
+}
+.Pessoa img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 100px;
+    border-radius: 50%;
+  }
+.user-suggestion{
+    margin-top: 159px;
+  margin-left: -196px;
+}
+.infos-suggestion img{
+    width: 36px;
+    height: 36px;
+    border:2px solid black;
+    border-radius: 100%;
+    margin:165px;
+    margin-right: 9px;
+    margin-bottom: -9px;
+    margin-left: 22px;
+    margin-top:140px
+}
+.infos-suggestion{
+ margin:15px 0 0 5px;
+
+ 
+}
+.infos-suggestion {
+    flex:1;
+}
+.infos-suggestion span{
+    font-weight: bold;
+    font-size: 14px;
+}
+.infos-suggestion p{
+    font-size: 13px;
+}
+.follow{
+    color:#0095F6;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500; 
+    margin-top:-60px;
+    margin-left:136px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.infos-suggestion p{
+   color: #6b6b6b
+}
+.img-suggestion{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    margin:165px;
+    margin-right: 9px;
+    margin-bottom: 6px;
+    margin-left: 22px;
+    margin-top:49px
+}
+.infos-suggestiondois{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.infos-suggestiondois p{
+    font-size: 13px;
+    color: #6b6b6b;
+    margin-right: 31px;
+}
+.footer{
+    margin-bottom: 10px;
+    padding:20px;
+}
